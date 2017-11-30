@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Setup and Installing
 
-The network only needs Numpy installed. You either need to have numpy installed on your machine, or set up a new virtual environment with numpy. What follows are instructions on how to set up a virtual environment and install numpy. 
+The network only needs Numpy installed. You either need to have numpy installed on your machine, or set up a new virtual environment with numpy. What follows are instructions setting up a virtual environment, and installing numpy. 
 
 First make sure conda is installed
 
@@ -23,19 +23,23 @@ And make sure conda is up to date
 $ conda update conda
 ```
 
-Then create the environment for this neural network. You can name it what you wish, I chose ```nndemonstrator```. Then activate the environment
+Then create the environment for this neural network. You can name it what you wish, I chose ```np```. Then activate the environment
 
 ```
-$ conda create -n nndemonstrator python=3.5 anaconda
+$ conda create -n np python=3.5 anaconda
 ```
 
 ## Running the tests
-
+To train the neural network on `or`, run
 
 ```
-coming soon
+python3 ornn.py
 ```
 
+And to see the neural network solve for XOR, run
+```
+python3 xornn.py
+```
 
 ## Built With
 
