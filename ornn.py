@@ -6,7 +6,6 @@ class Neural_Network(object):
 		self.inputLayerSize = 2
 		self.outputLayerSize = 1
 		self.learningRate = 0.1
-		#self.hiddenLayerSize = 1
 
 		# Weights
 		self.W1 = np.random.randn(self.inputLayerSize+1,self.outputLayerSize)
