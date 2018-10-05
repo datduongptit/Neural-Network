@@ -64,7 +64,7 @@ class Neural_Network(object):
 def graph(formula, x_range,m):  
     x = np.array(x_range)  
     y = formula(x,m)  # <- note now we're calling the function 'formula' with x
-    plt.plot(x, y,alpha=0.1)  
+    plt.plot(x, y,alpha=0.5, linewidth=5)
 
 # Hidden Layer transformation into linear function
 # where x is the input, and m is the hidden layer matrix of shape 3x1
@@ -87,6 +87,11 @@ def main():
         graph(hiddenLayer,range(0,2),NN.W1[:,0])
         graph(hiddenLayer,range(0,2),NN.W1[:,1])
         print(i)
+
+        plt.xlabel("x1")
+        plt.ylabel("x2")
+
+        
         plt.scatter(0,0,c='red')
         plt.scatter(0,1,c='black')
         plt.scatter(1,0,c='black')
