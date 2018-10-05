@@ -3,7 +3,7 @@
 
 # Numpy Neural Network
 
-This repository contains two neural networks that demonstrate feedforward networks and error backpropagation. This project was created such that I could gain a deeper understanding of the fundamentals of neural networks. The single hidden layer neural network solving XOR visualizes the inputs and network weights in Matplotlib. The output of this graph is shown in the GIF above.
+This repository contains two neural networks that demonstrate feedforward propagation and error backpropagation. The motivation of this project was to gain a deeper understanding of the fundamentals of neural networks. The single hidden layer neural network solving XOR visualizes the inputs and network weights in Matplotlib. The output of this graph is shown in the GIF above(the neural network is tasked to classify red vs. blue, and is initialized with random weights).
 
 ## Getting Started
 
