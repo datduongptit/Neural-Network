@@ -1,6 +1,9 @@
-# Neural Network Basics
 
-This repository contains two neural networks that demonstrate feedforward networks and backpropagation.
+![Alt Text](https://github.com/jzisheng/Neural-Network/blob/master/images/training.gif)
+
+# Numpy Neural Network
+
+This repository contains two neural networks that demonstrate feedforward networks and error backpropagation. This project was created such that I could gain a deeper understanding of the fundamentals of neural networks. The single hidden layer neural network solving XOR visualizes the inputs and network weights in Matplotlib. The output of this graph is shown in the GIF above.
 
 ## Getting Started
 
